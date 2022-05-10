@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.header{
+    background: #000000;
+}
+
+.header-logo,
+.header-nav{
+    display: inline-block;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.header-logo{
+    padding: 10px 10px 10px;
+}
+.nav-list__item{
+    display: inline-block;
+    padding: 20px 20px 20px;
+}
+
+.header-nav{
+    float: right;
+}
+
+
+
+
+.container{
+    background: rgba(0, 0, 0, 0.5);
+       /* background: url("../img/image.jpg") center no-repeat; */
+    /* background-size: cover;   */
+    position: relative;
+  }
+
+/* .container::after{
+    position: absolute;
+    display: block;
+    content: ""; 
+    background: url("../img/image.jpg") center no-repeat;
+    opacity: 1;
+     background-size: cover;   
+} */
+ 
+ .wrapper{
+ max-width: 1200px;
+ padding: 0 15px;
+ margin: 0 auto;
+ /* text-align: center;  */
+}
+ 
+ 
+ 
+ .title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+ text-align: center;
+  }
+ 
+ .title{
+ margin: 0;
+ padding: 50px 0;
+ position: relative;
+ }
+ 
+ .title::after{
+     position: absolute;
+     display: block;
+     content: "";
+     width: 170px;
+     height: 1px;
+     background: #FFFFFF;
+     margin: 0 auto;
+     bottom: 0;
+     left: calc(50% - 85px);
+ }
+ 
+ 
+ .text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+ text-align: center;
+ margin: 40px auto 73px;
+ color: #FFFFFF; 
+ }
+ 
+ .btn{
+    text-align: center;
+ }
+ .container-btn {
+     display: inline-block;
+     vertical-align: top;
+     padding: 15px 120px;
+     
+     border: 2px solid #FFFFFF;
+
+     font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+text-decoration: none;
+margin-bottom: 50px;
+
+ }
+
+
+
+
+.footer{
+    background: #000000;;
+}
+
+.svg{
+    padding: 40px 0 32px;
+text-align: center;
+}
+
+.footer__text{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+padding-bottom: 27px;
+}
+
+
+
+ 
+ 
+ 
